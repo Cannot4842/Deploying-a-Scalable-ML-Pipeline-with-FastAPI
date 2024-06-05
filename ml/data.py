@@ -50,6 +50,7 @@ def process_data(
     else:
         y = np.array([])
     categorical_features = [cf.replace("-", "_") for cf in categorical_features]
+    X.columns = [col.replace("-", "_") for col in X.columns]
     X_categorical = X[categorical_features].values
     X_continuous = X.drop(*[categorical_features], axis=1)
 
