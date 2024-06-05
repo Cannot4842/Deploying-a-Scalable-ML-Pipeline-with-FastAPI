@@ -22,6 +22,8 @@ Working in a command line environment is recommended for ease of use with git an
 * Write a function that outputs the performance of the model on slices of the data.
     * Suggestion: for simplicity, the function can just output the performance on slices of just the categorical features.
 * Write a model card using the provided template.
+This is the github repo link of my project:
+https://github.com/Cannot4842/Deploying-a-Scalable-ML-Pipeline-with-FastAPI
 
 # API Creation
 *  Create a RESTful API using FastAPI this must implement:
